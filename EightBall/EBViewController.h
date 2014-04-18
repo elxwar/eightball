@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface EBViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextView *answerView;
 
 @end
